@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>text</key>
+		<string>Banane</string>
+		<key>checked</key>
+		<true/>
+		<key>image</key>
+		<string>banane</string>
+		<key>detail</key>
+		<string>La banane est le fruit ou la baie dérivant de l’inflorescence du bananier. Les bananes sont des fruits très généralement stériles issus de variétés domestiquées. Les fruits des bananiers sauvages et de quelques cultivars domestiques contiennent des graines. 
+Les bananes constituent un élément essentiel du régime alimentaire de certains pays et constituent une nourriture de base pour des millions de personnes sous les tropiques.</string>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>Poire</string>
+		<key>checked</key>
+		<true/>
+		<key>image</key>
+		<string>poire</string>
+		<key>detail</key>
+		<string>La tradition rapporte que les souverains venant se faire sacrer dans la Cathédrale Notre-Dame de Reims, recevaient en cadeau une poire et une coupe de champagne. Louis XV, Louis XVI et même Marie-Louise d&apos;Autriche en furent gratifiés. Charles X en dégusta également lors de son sacre en 1825 tandis que le maire de Reims lui disait : « Nous vous offrons ce que nous avons de meilleur : nos vins, nos poires et nos cœurs. ».</string>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>Pomme</string>
+		<key>checked</key>
+		<false/>
+		<key>detail</key>
+		<string>La pomme est l&apos;un des fruits les plus consommés dans le monde. Produite par le pommier, elle est comestible et a un goût sucré ou acidulé selon les variétés.
+Généralement, on distingue trois types de pommes alimentaires :
+les pommes à cidre ;
+les pommes de table ou pommes à couteau ;
+les pommes à cuire qui appartiennent à un des deux premiers types mais supportent bien la cuisson.
+Ces trois types sont tous de l&apos;espèce Malus pumila qui compte plus de 20 000 variétés à travers le monde.
+Plusieurs boissons sont élaborées à base de pommes, en particulier le jus de pomme et le cidre produit à partir de la fermentation de ce jus.</string>
+		<key>image</key>
+		<string>pommes</string>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>Orange</string>
+		<key>checked</key>
+		<false/>
+		<key>detail</key>
+		<string>L’orange est un agrume, fruit des orangers, des arbres de différentes espèces de la famille des Rutacées ou d&apos;hybrides de ceux-ci.
+L&apos;orange est, comme son nom l&apos;indique, de couleur orange. Elle possède une peau épaisse et assez rugueuse. Elle se découpe en quartiers comme sa cousine la mandarine. L&apos;orange est un fruit juteux, sucré, excitant et il contient de la vitamine C. On utilise ce fruit pour les salades de fruits, les confitures, ou pour consommer son jus.</string>
+		<key>image</key>
+		<string>oranges</string>
+	</dict>
+</array>
+</plist>
