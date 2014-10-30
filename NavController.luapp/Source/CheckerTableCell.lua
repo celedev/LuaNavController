@@ -160,7 +160,7 @@ function CheckerTableCell:layoutSubviews ()
     
     local contentView = self.contentView
      
-    local textMargin =  metrics.margin * 1.2
+    local textMargin =  metrics.margin * 1.5
     local fontSize = contentView.bounds.size.height - 2 * textMargin
     self.textLabel.font = objc.UIFont:fontWithName_size(fontName, fontSize)
     

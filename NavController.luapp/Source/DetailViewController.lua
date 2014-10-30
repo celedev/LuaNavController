@@ -5,7 +5,7 @@ local isiOS7 = objc.UIDevice.currentDevice.systemVersion >= "7.0"
 
 local UIViewController = objc.UIViewController
 
-local DetailViewController = class.createClass ("DetailViewController", UIViewController)
+local DetailViewController = class.extendClass(objc.DetailViewController --[[@inherits UIViewController]])
 
 function DetailViewController:loadView ()
     -- We overwrite the loadView method to manage the nib file as a dynamic resource
@@ -17,27 +17,9 @@ DetailViewController:declareSetters { nibResource = function (self, nibObject)
                                                         if isiOS7 then 
                                                             self.edgesForExtendedLayout = UIGeometry.UIRectEdge.None
                                                         end
-                                                        self:viewDidChange()
+                                                        self:updateDisplay ()
                                                     end,
                                     }
-
-function DetailViewController:viewDidChange ()
-    
-    local detailView = self.view
-    self.imageView         = detailView:viewWithTag(101)
-    self.textLabel         = detailView:viewWithTag(102)
-    self.detailedTextLabel = detailView:viewWithTag(103)
-    self.checkedImageView  = detailView:viewWithTag(104)
-    self.switch            = detailView:viewWithTag(105)
-    
-    if (self.switch) then
-        self.switch:addTarget_action_forControlEvents (self, 'handleSwitch', UIControl.Events.ValueChanged)
-        self.switch.on = self.dataController and self.dataController:dataForItemAtIndex(self.dataItemIndex).checked
-    end
-    
-    self:updateDisplay ()
-end
-
 function DetailViewController:viewWillAppear (animated)
     
     self:updateDisplay ()
@@ -54,7 +36,7 @@ function DetailViewController:viewWillDisappear (animated)
     self[UIViewController]:viewWillDisappear (animated)
 end
 
-function DetailViewController:handleSwitch (sender)
+function DetailViewController:handleCheckSwitch (sender)
     if self.dataController then
         local itemData = self.dataController:dataForItemAtIndex (self.dataItemIndex)
         
@@ -64,11 +46,11 @@ function DetailViewController:handleSwitch (sender)
         end
     end    
 end
-DetailViewController:publishActionMethod ('handleSwitch')
 
 function DetailViewController:setCheckedStatusImage (itemData)
     if self.checkedImageView then 
-        getResource (itemData.checked and 'data.checked' or 'data.unchecked', 'public.image', self.checkedImageView, 'image')
+        getResource (itemData.checked and 'data.checked' or 'data.unchecked', 'public.image', 
+                     self.checkedImageView, 'image')
     end
 end
 
@@ -88,6 +70,8 @@ function DetailViewController:updateDisplay (message, name, object)
         
         self.detailedTextLabel.text = itemData.detail
         self:setCheckedStatusImage (itemData)
+        
+        self.checkSwitch.on = self.dataController:dataForItemAtIndex(self.dataItemIndex).checked
     end
 end
 
