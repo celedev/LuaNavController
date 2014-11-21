@@ -9,17 +9,15 @@ local DetailViewController = class.extendClass(objc.DetailViewController --[[@in
 
 function DetailViewController:loadView ()
     -- We overwrite the loadView method to manage the nib file as a dynamic resource
-    getResource ('data.' .. self.nibName, 'nib', self, 'nibResource')
+    getResource ('data.' .. self.nibName, 'nib', self, function (self, nibObject)
+                                                           nibObject:instantiateWithOwner_options (self, nil)
+                                                           if isiOS7 then 
+                                                               self.edgesForExtendedLayout = UIGeometry.UIRectEdge.None
+                                                           end
+                                                           self:updateDisplay ()
+                                                       end)
 end
 
-DetailViewController:declareSetters { nibResource = function (self, nibObject)
-                                                        nibObject:instantiateWithOwner_options (self, nil)
-                                                        if isiOS7 then 
-                                                            self.edgesForExtendedLayout = UIGeometry.UIRectEdge.None
-                                                        end
-                                                        self:updateDisplay ()
-                                                    end,
-                                    }
 function DetailViewController:viewWillAppear (animated)
     
     self:updateDisplay ()

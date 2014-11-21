@@ -21,7 +21,7 @@
 {
     // Create a Lua Context for this application
     _collectionLuaContext = [[CIMLuaContext alloc] initWithName:@"Main" mainSourcePackageId:@"fruit_basket"];
-    _collectionLuaContextMonitor = [[CIMLuaContextMonitor alloc] initWithLuaContext:_collectionLuaContext connectionTimeout:3];
+    _collectionLuaContextMonitor = [[CIMLuaContextMonitor alloc] initWithLuaContext:_collectionLuaContext connectionTimeout:5];
     
     // Create the application window
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
