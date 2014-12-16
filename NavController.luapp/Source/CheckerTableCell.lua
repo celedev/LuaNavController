@@ -3,7 +3,6 @@ local UiTableViewCell = require 'UIKit.UITableViewCell'
 local UiControl       = require 'UIKit.UIControl'
 local UiButton        = require 'UIKit.UIButton'
 local NsLayoutConstraint = require 'UIKit.NSLayoutConstraint'
-local CgGeometry      = require 'CoreGraphics.CGGeometry'
 
 local NSLayoutAttribute = NsLayoutConstraint.NSLayoutAttribute
 local NSLayoutRelation = NsLayoutConstraint.NSLayoutRelation
