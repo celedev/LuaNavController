@@ -39,7 +39,7 @@ function CheckerTableViewController:configure ()
 
     self.title = "Fruits"
     
-    self.tableView.rowHeight = 60
+    self.tableView.rowHeight = 65
     
     -- update the height in the tableViewCell
     CheckerCell:setCellHeight(self.tableView.rowHeight)
