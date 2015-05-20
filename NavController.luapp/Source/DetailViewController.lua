@@ -3,9 +3,9 @@ local UIGeometry = require 'UIKit.UIGeometry'
 
 local isiOS7 = objc.UIDevice.currentDevice.systemVersion >= "7.0"
 
-local UIViewController = objc.UIViewController
+local DetailViewController = class.extendClass(objc.DetailViewController)
 
-local DetailViewController = class.extendClass(objc.DetailViewController --[[@inherits UIViewController]])
+local superclass = DetailViewController.superclass
 
 function DetailViewController:loadView ()
     -- We overwrite the loadView method to manage the nib file as a dynamic resource
@@ -24,14 +24,14 @@ function DetailViewController:viewWillAppear (animated)
     -- Register for resource changed messages
    self:addMessageHandler ({"data_table_updated", 'DetailViewController class updated'}, "updateDisplay")
     
-    self[UIViewController]:viewWillAppear (animated)
+    self[superclass]:viewWillAppear (animated)
 end
 
 function DetailViewController:viewWillDisappear (animated)
     -- unregister for resource changed messages
     self:removeMessageHandler()
     
-    self[UIViewController]:viewWillDisappear (animated)
+    self[superclass]:viewWillDisappear (animated)
 end
 
 function DetailViewController:handleCheckSwitch (sender)

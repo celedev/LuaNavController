@@ -1,897 +1,377 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>011B6FDE64C244A0B86833E0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>587662AA7FAB4930ACE12D4D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>18D2E31F58944C77BBE777B2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B52DDEE3B0D4509ABAB97CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2B52DDEE3B0D4509ABAB97CF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libCIMLuaBindingUIKit.a</string>
-			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs/libCIMLuaBindingUIKit.a</string>
-			<key>sourceTree</key>
-			<string>&lt;absolute&gt;</string>
-		</dict>
-		<key>3FA3DFBC900D4294BD286891</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AA755FD87E3345BAA9EA5855</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>587662AA7FAB4930ACE12D4D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libCIMLuaBindingFoundation.a</string>
-			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs/libCIMLuaBindingFoundation.a</string>
-			<key>sourceTree</key>
-			<string>&lt;absolute&gt;</string>
-		</dict>
-		<key>7CDA08890B354839B4F155D5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CEBC886901DD4D05BA234FFA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8450A7FB2324418CA95D56F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EB8A3485439943489870295D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8C4BF529F2424D1995F69CCB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CE86548B59E1413987B3D739</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AA755FD87E3345BAA9EA5855</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libCIMLua.a</string>
-			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLua.a</string>
-			<key>sourceTree</key>
-			<string>&lt;absolute&gt;</string>
-		</dict>
-		<key>C54ACE25E5BA4D1CBF84C203</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E563D851C4D64233A7481053</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CE86548B59E1413987B3D739</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>CEBC886901DD4D05BA234FFA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>MobileCoreServices.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/MobileCoreServices.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>E563D851C4D64233A7481053</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libCIMLuaDebugServerIOS.a</string>
-			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLuaDebugServerIOS.a</string>
-			<key>sourceTree</key>
-			<string>&lt;absolute&gt;</string>
-		</dict>
-		<key>EB8A3485439943489870295D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FD45578F170C5C0F0086A88D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD4557A1170C5C0F0086A88D</string>
-				<string>FD45579A170C5C0F0086A88D</string>
-				<string>FD455799170C5C0F0086A88D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD455790170C5C0F0086A88D</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>CIM</string>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Celedev</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>FD455797170C5C0F0086A88D</key>
-					<dict>
-						<key>DevelopmentTeam</key>
-						<string>7V6VCE4Z4V</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>FD455793170C5C0F0086A88D</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>FD45578F170C5C0F0086A88D</string>
-			<key>productRefGroup</key>
-			<string>FD455799170C5C0F0086A88D</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>FD455797170C5C0F0086A88D</string>
-			</array>
-		</dict>
-		<key>FD455793170C5C0F0086A88D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FD4557B3170C5C0F0086A88D</string>
-				<string>FD4557B4170C5C0F0086A88D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FD455794170C5C0F0086A88D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FD4557A8170C5C0F0086A88D</string>
-				<string>FD4557AC170C5C0F0086A88D</string>
-				<string>FD4C5F9C19E98EFE004DB02E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FD455795170C5C0F0086A88D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FD5D768218B65FA50011B871</string>
-				<string>7CDA08890B354839B4F155D5</string>
-				<string>8450A7FB2324418CA95D56F4</string>
-				<string>8C4BF529F2424D1995F69CCB</string>
-				<string>3FA3DFBC900D4294BD286891</string>
-				<string>C54ACE25E5BA4D1CBF84C203</string>
-				<string>18D2E31F58944C77BBE777B2</string>
-				<string>011B6FDE64C244A0B86833E0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FD455796170C5C0F0086A88D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FDC547AB18DD9B39004EB442</string>
-				<string>FD4557A6170C5C0F0086A88D</string>
-				<string>FD4C5F9E19E991E5004DB02E</string>
-				<string>FD4557B0170C5C0F0086A88D</string>
-				<string>FD4557B2170C5C0F0086A88D</string>
-				<string>FD4557C2170C5C7D0086A88D</string>
-				<string>FD4557C4170C5CA50086A88D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FD455797170C5C0F0086A88D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FD4557B5170C5C0F0086A88D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FD455794170C5C0F0086A88D</string>
-				<string>FD455795170C5C0F0086A88D</string>
-				<string>FD455796170C5C0F0086A88D</string>
-				<string>FD6F461418E02E1A00208EF1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>LuaNavController</string>
-			<key>productName</key>
-			<string>TouchCells</string>
-			<key>productReference</key>
-			<string>FD455798170C5C0F0086A88D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>FD455798170C5C0F0086A88D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>LuaNavController.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FD455799170C5C0F0086A88D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD455798170C5C0F0086A88D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD45579A170C5C0F0086A88D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD45579D170C5C0F0086A88D</string>
-				<string>CEBC886901DD4D05BA234FFA</string>
-				<string>EB8A3485439943489870295D</string>
-				<string>CE86548B59E1413987B3D739</string>
-				<string>AA755FD87E3345BAA9EA5855</string>
-				<string>E563D851C4D64233A7481053</string>
-				<string>2B52DDEE3B0D4509ABAB97CF</string>
-				<string>587662AA7FAB4930ACE12D4D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD45579D170C5C0F0086A88D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>FD4557A1170C5C0F0086A88D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD4557AA170C5C0F0086A88D</string>
-				<string>FD4557AB170C5C0F0086A88D</string>
-				<string>FD4C5F9A19E98EFE004DB02E</string>
-				<string>FD4C5F9B19E98EFE004DB02E</string>
-				<string>FD4C5F9D19E991E5004DB02E</string>
-				<string>FD4557B8170C5C690086A88D</string>
-				<string>FD4557A2170C5C0F0086A88D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>LuaNavController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD4557A2170C5C0F0086A88D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD4557A3170C5C0F0086A88D</string>
-				<string>FD4557A4170C5C0F0086A88D</string>
-				<string>FD4557A7170C5C0F0086A88D</string>
-				<string>FD4557A9170C5C0F0086A88D</string>
-				<string>FD4557C3170C5CA50086A88D</string>
-				<string>FD4557AF170C5C0F0086A88D</string>
-				<string>FD4557B1170C5C0F0086A88D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD4557A3170C5C0F0086A88D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>LuaNavController-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD4557A4170C5C0F0086A88D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD4557A5170C5C0F0086A88D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD4557A5170C5C0F0086A88D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD4557A6170C5C0F0086A88D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD4557A4170C5C0F0086A88D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD4557A7170C5C0F0086A88D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD4557A8170C5C0F0086A88D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD4557A7170C5C0F0086A88D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD4557A9170C5C0F0086A88D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LuaNavController-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD4557AA170C5C0F0086A88D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CIMAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD4557AB170C5C0F0086A88D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CIMAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD4557AC170C5C0F0086A88D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD4557AB170C5C0F0086A88D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD4557AF170C5C0F0086A88D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD4557B0170C5C0F0086A88D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD4557AF170C5C0F0086A88D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD4557B1170C5C0F0086A88D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default-568h@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD4557B2170C5C0F0086A88D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD4557B1170C5C0F0086A88D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD4557B3170C5C0F0086A88D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FD4557B4170C5C0F0086A88D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<string>-DNS_BLOCK_ASSERTIONS=1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FD4557B5170C5C0F0086A88D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FD4557B6170C5C0F0086A88D</string>
-				<string>FD4557B7170C5C0F0086A88D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FD4557B6170C5C0F0086A88D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>LuaNavController/LuaNavController-Prefix.pch</string>
-				<key>HEADER_SEARCH_PATHS</key>
-				<array>
-					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/include</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>LuaNavController/LuaNavController-Info.plist</string>
-				<key>LIBRARY_SEARCH_PATHS</key>
-				<array>
-					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos</string>
-					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string>-ObjC</string>
-				<key>PRODUCT_NAME</key>
-				<string>LuaNavController</string>
-				<key>PROVISIONING_PROFILE</key>
-				<string></string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FD4557B7170C5C0F0086A88D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>LuaNavController/LuaNavController-Prefix.pch</string>
-				<key>HEADER_SEARCH_PATHS</key>
-				<array>
-					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/include</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>LuaNavController/LuaNavController-Info.plist</string>
-				<key>LIBRARY_SEARCH_PATHS</key>
-				<array>
-					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos</string>
-					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string>-ObjC</string>
-				<key>PRODUCT_NAME</key>
-				<string>LuaNavController</string>
-				<key>PROVISIONING_PROFILE</key>
-				<string></string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FD4557B8170C5C690086A88D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FDC547AA18DD9B39004EB442</string>
-				<string>FD4557BD170C5C7D0086A88D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD4557BD170C5C7D0086A88D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>MainWindow.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD4557C2170C5C7D0086A88D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD4557BD170C5C7D0086A88D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD4557C3170C5CA50086A88D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD4557C4170C5CA50086A88D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD4557C3170C5CA50086A88D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD4C5F9A19E98EFE004DB02E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>DetailViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD4C5F9B19E98EFE004DB02E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DetailViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD4C5F9C19E98EFE004DB02E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD4C5F9B19E98EFE004DB02E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD4C5F9D19E991E5004DB02E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>DetailViewController.xib</string>
-			<key>path</key>
-			<string>Ressources/DetailViewController.xib</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FD4C5F9E19E991E5004DB02E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD4C5F9D19E991E5004DB02E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD5D768218B65FA50011B871</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD45579D170C5C0F0086A88D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD6F461418E02E1A00208EF1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>dstPath</key>
-			<string></string>
-			<key>dstSubfolderSpec</key>
-			<string>7</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXCopyFilesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FDC547AA18DD9B39004EB442</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>name</key>
-			<string>fruit-basket.jpg</string>
-			<key>path</key>
-			<string>Ressources/fruit-basket.jpg</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FDC547AB18DD9B39004EB442</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDC547AA18DD9B39004EB442</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>FD455790170C5C0F0086A88D</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FA3DFBC900D4294BD286891 /* libCIMLua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA755FD87E3345BAA9EA5855 /* libCIMLua.a */; };
+		46B1EC57DA5C5911D8F114DD /* libCIMLuaBindingUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F46B0E96072D83408516F5C4 /* libCIMLuaBindingUIKit.a */; };
+		7CDA08890B354839B4F155D5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBC886901DD4D05BA234FFA /* MobileCoreServices.framework */; };
+		8450A7FB2324418CA95D56F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8A3485439943489870295D /* UIKit.framework */; };
+		8C4BF529F2424D1995F69CCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE86548B59E1413987B3D739 /* CoreGraphics.framework */; };
+		8EFB38310B6CC1A7F0594993 /* libCIMLuaBindingFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E370A2865EDEF806AAD48D38 /* libCIMLuaBindingFoundation.a */; };
+		C54ACE25E5BA4D1CBF84C203 /* libCIMLuaDebugServerIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E563D851C4D64233A7481053 /* libCIMLuaDebugServerIOS.a */; };
+		FD4557A6170C5C0F0086A88D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD4557A4170C5C0F0086A88D /* InfoPlist.strings */; };
+		FD4557A8170C5C0F0086A88D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4557A7170C5C0F0086A88D /* main.m */; };
+		FD4557AC170C5C0F0086A88D /* CIMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4557AB170C5C0F0086A88D /* CIMAppDelegate.m */; };
+		FD4557B0170C5C0F0086A88D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4557AF170C5C0F0086A88D /* Default@2x.png */; };
+		FD4557B2170C5C0F0086A88D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4557B1170C5C0F0086A88D /* Default-568h@2x.png */; };
+		FD4557C2170C5C7D0086A88D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4557BD170C5C7D0086A88D /* MainWindow.xib */; };
+		FD4557C4170C5CA50086A88D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4557C3170C5CA50086A88D /* Default.png */; };
+		FD4C5F9C19E98EFE004DB02E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C5F9B19E98EFE004DB02E /* DetailViewController.m */; };
+		FD4C5F9E19E991E5004DB02E /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4C5F9D19E991E5004DB02E /* DetailViewController.xib */; };
+		FD5D768218B65FA50011B871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD45579D170C5C0F0086A88D /* Foundation.framework */; };
+		FDC547AB18DD9B39004EB442 /* fruit-basket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDC547AA18DD9B39004EB442 /* fruit-basket.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FD6F461418E02E1A00208EF1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA755FD87E3345BAA9EA5855 /* libCIMLua.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLua.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLua.a"; sourceTree = "<absolute>"; };
+		CE86548B59E1413987B3D739 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEBC886901DD4D05BA234FFA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E370A2865EDEF806AAD48D38 /* libCIMLuaBindingFoundation.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingFoundation.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs/libCIMLuaBindingFoundation.a"; sourceTree = "<absolute>"; };
+		E563D851C4D64233A7481053 /* libCIMLuaDebugServerIOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaDebugServerIOS.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLuaDebugServerIOS.a"; sourceTree = "<absolute>"; };
+		EB8A3485439943489870295D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F46B0E96072D83408516F5C4 /* libCIMLuaBindingUIKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingUIKit.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs/libCIMLuaBindingUIKit.a"; sourceTree = "<absolute>"; };
+		FD455798170C5C0F0086A88D /* LuaNavController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuaNavController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD45579D170C5C0F0086A88D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD4557A3170C5C0F0086A88D /* LuaNavController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LuaNavController-Info.plist"; sourceTree = "<group>"; };
+		FD4557A5170C5C0F0086A88D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD4557A7170C5C0F0086A88D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD4557A9170C5C0F0086A88D /* LuaNavController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LuaNavController-Prefix.pch"; sourceTree = "<group>"; };
+		FD4557AA170C5C0F0086A88D /* CIMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIMAppDelegate.h; sourceTree = "<group>"; };
+		FD4557AB170C5C0F0086A88D /* CIMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIMAppDelegate.m; sourceTree = "<group>"; };
+		FD4557AF170C5C0F0086A88D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FD4557B1170C5C0F0086A88D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FD4557BD170C5C7D0086A88D /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		FD4557C3170C5CA50086A88D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FD4C5F9A19E98EFE004DB02E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FD4C5F9B19E98EFE004DB02E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FD4C5F9D19E991E5004DB02E /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailViewController.xib; path = Ressources/DetailViewController.xib; sourceTree = SOURCE_ROOT; };
+		FDC547AA18DD9B39004EB442 /* fruit-basket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "fruit-basket.jpg"; path = "Ressources/fruit-basket.jpg"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD455795170C5C0F0086A88D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5D768218B65FA50011B871 /* Foundation.framework in Frameworks */,
+				7CDA08890B354839B4F155D5 /* MobileCoreServices.framework in Frameworks */,
+				8450A7FB2324418CA95D56F4 /* UIKit.framework in Frameworks */,
+				8C4BF529F2424D1995F69CCB /* CoreGraphics.framework in Frameworks */,
+				3FA3DFBC900D4294BD286891 /* libCIMLua.a in Frameworks */,
+				C54ACE25E5BA4D1CBF84C203 /* libCIMLuaDebugServerIOS.a in Frameworks */,
+				46B1EC57DA5C5911D8F114DD /* libCIMLuaBindingUIKit.a in Frameworks */,
+				8EFB38310B6CC1A7F0594993 /* libCIMLuaBindingFoundation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD45578F170C5C0F0086A88D = {
+			isa = PBXGroup;
+			children = (
+				FD4557A1170C5C0F0086A88D /* LuaNavController */,
+				FD45579A170C5C0F0086A88D /* Frameworks */,
+				FD455799170C5C0F0086A88D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD455799170C5C0F0086A88D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD455798170C5C0F0086A88D /* LuaNavController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD45579A170C5C0F0086A88D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD45579D170C5C0F0086A88D /* Foundation.framework */,
+				CEBC886901DD4D05BA234FFA /* MobileCoreServices.framework */,
+				EB8A3485439943489870295D /* UIKit.framework */,
+				CE86548B59E1413987B3D739 /* CoreGraphics.framework */,
+				AA755FD87E3345BAA9EA5855 /* libCIMLua.a */,
+				E563D851C4D64233A7481053 /* libCIMLuaDebugServerIOS.a */,
+				F46B0E96072D83408516F5C4 /* libCIMLuaBindingUIKit.a */,
+				E370A2865EDEF806AAD48D38 /* libCIMLuaBindingFoundation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD4557A1170C5C0F0086A88D /* LuaNavController */ = {
+			isa = PBXGroup;
+			children = (
+				FD4557AA170C5C0F0086A88D /* CIMAppDelegate.h */,
+				FD4557AB170C5C0F0086A88D /* CIMAppDelegate.m */,
+				FD4C5F9A19E98EFE004DB02E /* DetailViewController.h */,
+				FD4C5F9B19E98EFE004DB02E /* DetailViewController.m */,
+				FD4C5F9D19E991E5004DB02E /* DetailViewController.xib */,
+				FD4557B8170C5C690086A88D /* Resources */,
+				FD4557A2170C5C0F0086A88D /* Supporting Files */,
+			);
+			path = LuaNavController;
+			sourceTree = "<group>";
+		};
+		FD4557A2170C5C0F0086A88D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD4557A3170C5C0F0086A88D /* LuaNavController-Info.plist */,
+				FD4557A4170C5C0F0086A88D /* InfoPlist.strings */,
+				FD4557A7170C5C0F0086A88D /* main.m */,
+				FD4557A9170C5C0F0086A88D /* LuaNavController-Prefix.pch */,
+				FD4557C3170C5CA50086A88D /* Default.png */,
+				FD4557AF170C5C0F0086A88D /* Default@2x.png */,
+				FD4557B1170C5C0F0086A88D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD4557B8170C5C690086A88D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FDC547AA18DD9B39004EB442 /* fruit-basket.jpg */,
+				FD4557BD170C5C7D0086A88D /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD455797170C5C0F0086A88D /* LuaNavController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4557B5170C5C0F0086A88D /* Build configuration list for PBXNativeTarget "LuaNavController" */;
+			buildPhases = (
+				FD455794170C5C0F0086A88D /* Sources */,
+				FD455795170C5C0F0086A88D /* Frameworks */,
+				FD455796170C5C0F0086A88D /* Resources */,
+				FD6F461418E02E1A00208EF1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuaNavController;
+			productName = TouchCells;
+			productReference = FD455798170C5C0F0086A88D /* LuaNavController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD455790170C5C0F0086A88D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CIM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Celedev;
+				TargetAttributes = {
+					FD455797170C5C0F0086A88D = {
+						DevelopmentTeam = 7V6VCE4Z4V;
+					};
+				};
+			};
+			buildConfigurationList = FD455793170C5C0F0086A88D /* Build configuration list for PBXProject "LuaNavController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD45578F170C5C0F0086A88D;
+			productRefGroup = FD455799170C5C0F0086A88D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD455797170C5C0F0086A88D /* LuaNavController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD455796170C5C0F0086A88D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC547AB18DD9B39004EB442 /* fruit-basket.jpg in Resources */,
+				FD4557A6170C5C0F0086A88D /* InfoPlist.strings in Resources */,
+				FD4C5F9E19E991E5004DB02E /* DetailViewController.xib in Resources */,
+				FD4557B0170C5C0F0086A88D /* Default@2x.png in Resources */,
+				FD4557B2170C5C0F0086A88D /* Default-568h@2x.png in Resources */,
+				FD4557C2170C5C7D0086A88D /* MainWindow.xib in Resources */,
+				FD4557C4170C5CA50086A88D /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD455794170C5C0F0086A88D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4557A8170C5C0F0086A88D /* main.m in Sources */,
+				FD4557AC170C5C0F0086A88D /* CIMAppDelegate.m in Sources */,
+				FD4C5F9C19E98EFE004DB02E /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD4557A4170C5C0F0086A88D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4557A5170C5C0F0086A88D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD4557B3170C5C0F0086A88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD4557B4170C5C0F0086A88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD4557B6170C5C0F0086A88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LuaNavController/LuaNavController-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/include",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/headers",
+				);
+				INFOPLIST_FILE = "LuaNavController/LuaNavController-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = LuaNavController;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD4557B7170C5C0F0086A88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LuaNavController/LuaNavController-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/include",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/headers",
+				);
+				INFOPLIST_FILE = "LuaNavController/LuaNavController-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = LuaNavController;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD455793170C5C0F0086A88D /* Build configuration list for PBXProject "LuaNavController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4557B3170C5C0F0086A88D /* Debug */,
+				FD4557B4170C5C0F0086A88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4557B5170C5C0F0086A88D /* Build configuration list for PBXNativeTarget "LuaNavController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4557B6170C5C0F0086A88D /* Debug */,
+				FD4557B7170C5C0F0086A88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD455790170C5C0F0086A88D /* Project object */;
+}

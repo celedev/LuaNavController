@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>classes</key>
+	<dict>
+		<key>DetailViewController</key>
+		<dict>
+			<key>defined</key>
+			<string>DetailViewController</string>
+			<key>name</key>
+			<string>DetailViewController</string>
+			<key>superclass</key>
+			<string>UIViewController</string>
+		</dict>
+	</dict>
+	<key>id</key>
+	<string>LuaNavController</string>
+	<key>indexFormat</key>
+	<string>0.2</string>
+	<key>protocols</key>
+	<dict/>
+	<key>structs</key>
+	<dict/>
+	<key>version</key>
+	<string>2</string>
+</dict>
+</plist>
