@@ -7,20 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C23172750C372FCD1B02155 /* libCIMLuaBindingUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23325EE5718C5C3A0D700706 /* libCIMLuaBindingUIKit.a */; };
 		3FA3DFBC900D4294BD286891 /* libCIMLua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA755FD87E3345BAA9EA5855 /* libCIMLua.a */; };
-		46B1EC57DA5C5911D8F114DD /* libCIMLuaBindingUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F46B0E96072D83408516F5C4 /* libCIMLuaBindingUIKit.a */; };
 		7CDA08890B354839B4F155D5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBC886901DD4D05BA234FFA /* MobileCoreServices.framework */; };
 		8450A7FB2324418CA95D56F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8A3485439943489870295D /* UIKit.framework */; };
 		8C4BF529F2424D1995F69CCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE86548B59E1413987B3D739 /* CoreGraphics.framework */; };
-		8EFB38310B6CC1A7F0594993 /* libCIMLuaBindingFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E370A2865EDEF806AAD48D38 /* libCIMLuaBindingFoundation.a */; };
 		C54ACE25E5BA4D1CBF84C203 /* libCIMLuaDebugServerIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E563D851C4D64233A7481053 /* libCIMLuaDebugServerIOS.a */; };
+		E271699C79C0A96A521279CD /* libCIMLuaBindingFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F39B3431C3B101CB9C7ED7 /* libCIMLuaBindingFoundation.a */; };
+		FD2FE2DF1B1F39BE0083BBB3 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD2FE2DE1B1F39BE0083BBB3 /* Launch Screen.xib */; };
 		FD4557A6170C5C0F0086A88D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD4557A4170C5C0F0086A88D /* InfoPlist.strings */; };
 		FD4557A8170C5C0F0086A88D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4557A7170C5C0F0086A88D /* main.m */; };
 		FD4557AC170C5C0F0086A88D /* CIMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4557AB170C5C0F0086A88D /* CIMAppDelegate.m */; };
-		FD4557B0170C5C0F0086A88D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4557AF170C5C0F0086A88D /* Default@2x.png */; };
-		FD4557B2170C5C0F0086A88D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4557B1170C5C0F0086A88D /* Default-568h@2x.png */; };
 		FD4557C2170C5C7D0086A88D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4557BD170C5C7D0086A88D /* MainWindow.xib */; };
-		FD4557C4170C5CA50086A88D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4557C3170C5CA50086A88D /* Default.png */; };
 		FD4C5F9C19E98EFE004DB02E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C5F9B19E98EFE004DB02E /* DetailViewController.m */; };
 		FD4C5F9E19E991E5004DB02E /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4C5F9D19E991E5004DB02E /* DetailViewController.xib */; };
 		FD5D768218B65FA50011B871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD45579D170C5C0F0086A88D /* Foundation.framework */; };
@@ -40,13 +38,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		23325EE5718C5C3A0D700706 /* libCIMLuaBindingUIKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingUIKit.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-9-SDK.luabindings/BindingLibs/libCIMLuaBindingUIKit.a"; sourceTree = "<absolute>"; };
+		74F39B3431C3B101CB9C7ED7 /* libCIMLuaBindingFoundation.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingFoundation.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-9-SDK.luabindings/BindingLibs/libCIMLuaBindingFoundation.a"; sourceTree = "<absolute>"; };
 		AA755FD87E3345BAA9EA5855 /* libCIMLua.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLua.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLua.a"; sourceTree = "<absolute>"; };
 		CE86548B59E1413987B3D739 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CEBC886901DD4D05BA234FFA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		E370A2865EDEF806AAD48D38 /* libCIMLuaBindingFoundation.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingFoundation.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs/libCIMLuaBindingFoundation.a"; sourceTree = "<absolute>"; };
 		E563D851C4D64233A7481053 /* libCIMLuaDebugServerIOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaDebugServerIOS.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLuaDebugServerIOS.a"; sourceTree = "<absolute>"; };
 		EB8A3485439943489870295D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F46B0E96072D83408516F5C4 /* libCIMLuaBindingUIKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingUIKit.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs/libCIMLuaBindingUIKit.a"; sourceTree = "<absolute>"; };
+		FD2FE2DE1B1F39BE0083BBB3 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		FD455798170C5C0F0086A88D /* LuaNavController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuaNavController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD45579D170C5C0F0086A88D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FD4557A3170C5C0F0086A88D /* LuaNavController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LuaNavController-Info.plist"; sourceTree = "<group>"; };
@@ -55,10 +54,7 @@
 		FD4557A9170C5C0F0086A88D /* LuaNavController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LuaNavController-Prefix.pch"; sourceTree = "<group>"; };
 		FD4557AA170C5C0F0086A88D /* CIMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIMAppDelegate.h; sourceTree = "<group>"; };
 		FD4557AB170C5C0F0086A88D /* CIMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIMAppDelegate.m; sourceTree = "<group>"; };
-		FD4557AF170C5C0F0086A88D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		FD4557B1170C5C0F0086A88D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FD4557BD170C5C7D0086A88D /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		FD4557C3170C5CA50086A88D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FD4C5F9A19E98EFE004DB02E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		FD4C5F9B19E98EFE004DB02E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		FD4C5F9D19E991E5004DB02E /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailViewController.xib; path = Ressources/DetailViewController.xib; sourceTree = SOURCE_ROOT; };
@@ -76,8 +72,8 @@
 				8C4BF529F2424D1995F69CCB /* CoreGraphics.framework in Frameworks */,
 				3FA3DFBC900D4294BD286891 /* libCIMLua.a in Frameworks */,
 				C54ACE25E5BA4D1CBF84C203 /* libCIMLuaDebugServerIOS.a in Frameworks */,
-				46B1EC57DA5C5911D8F114DD /* libCIMLuaBindingUIKit.a in Frameworks */,
-				8EFB38310B6CC1A7F0594993 /* libCIMLuaBindingFoundation.a in Frameworks */,
+				E271699C79C0A96A521279CD /* libCIMLuaBindingFoundation.a in Frameworks */,
+				0C23172750C372FCD1B02155 /* libCIMLuaBindingUIKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,8 +106,8 @@
 				CE86548B59E1413987B3D739 /* CoreGraphics.framework */,
 				AA755FD87E3345BAA9EA5855 /* libCIMLua.a */,
 				E563D851C4D64233A7481053 /* libCIMLuaDebugServerIOS.a */,
-				F46B0E96072D83408516F5C4 /* libCIMLuaBindingUIKit.a */,
-				E370A2865EDEF806AAD48D38 /* libCIMLuaBindingFoundation.a */,
+				74F39B3431C3B101CB9C7ED7 /* libCIMLuaBindingFoundation.a */,
+				23325EE5718C5C3A0D700706 /* libCIMLuaBindingUIKit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,6 +117,7 @@
 			children = (
 				FD4557AA170C5C0F0086A88D /* CIMAppDelegate.h */,
 				FD4557AB170C5C0F0086A88D /* CIMAppDelegate.m */,
+				FD4557BD170C5C7D0086A88D /* MainWindow.xib */,
 				FD4C5F9A19E98EFE004DB02E /* DetailViewController.h */,
 				FD4C5F9B19E98EFE004DB02E /* DetailViewController.m */,
 				FD4C5F9D19E991E5004DB02E /* DetailViewController.xib */,
@@ -137,9 +134,7 @@
 				FD4557A4170C5C0F0086A88D /* InfoPlist.strings */,
 				FD4557A7170C5C0F0086A88D /* main.m */,
 				FD4557A9170C5C0F0086A88D /* LuaNavController-Prefix.pch */,
-				FD4557C3170C5CA50086A88D /* Default.png */,
-				FD4557AF170C5C0F0086A88D /* Default@2x.png */,
-				FD4557B1170C5C0F0086A88D /* Default-568h@2x.png */,
+				FD2FE2DE1B1F39BE0083BBB3 /* Launch Screen.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -148,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				FDC547AA18DD9B39004EB442 /* fruit-basket.jpg */,
-				FD4557BD170C5C7D0086A88D /* MainWindow.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -214,10 +208,8 @@
 				FDC547AB18DD9B39004EB442 /* fruit-basket.jpg in Resources */,
 				FD4557A6170C5C0F0086A88D /* InfoPlist.strings in Resources */,
 				FD4C5F9E19E991E5004DB02E /* DetailViewController.xib in Resources */,
-				FD4557B0170C5C0F0086A88D /* Default@2x.png in Resources */,
-				FD4557B2170C5C0F0086A88D /* Default-568h@2x.png in Resources */,
+				FD2FE2DF1B1F39BE0083BBB3 /* Launch Screen.xib in Resources */,
 				FD4557C2170C5C7D0086A88D /* MainWindow.xib in Resources */,
-				FD4557C4170C5CA50086A88D /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +265,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -297,7 +289,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -318,11 +310,12 @@
 				INFOPLIST_FILE = "LuaNavController/LuaNavController-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos",
-					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/iOS-9-SDK.luabindings/BindingLibs",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = LuaNavController;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -341,11 +334,12 @@
 				INFOPLIST_FILE = "LuaNavController/LuaNavController-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos",
-					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/iOS-9-SDK.luabindings/BindingLibs",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = LuaNavController;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

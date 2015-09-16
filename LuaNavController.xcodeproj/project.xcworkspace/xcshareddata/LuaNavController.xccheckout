@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>EB74253F-612A-408F-856E-430E0B6B06BF</string>
 	<key>IDESourceControlProjectName</key>
-	<string>LuaNavController</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>8D9392C2CB6D60758DB20583710FEC29DB246370</key>
 		<string>https://github.com/celedev/LuaNavController.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>LuaNavController.xcodeproj</string>
+	<string>LuaNavController.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8D9392C2CB6D60758DB20583710FEC29DB246370</key>

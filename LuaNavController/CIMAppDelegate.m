@@ -28,11 +28,12 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     // Run the code for this Lua context
-    [_collectionLuaContext loadLuaModuleNamed:@"CreateController" withCompletionBlock:^(id result) {
+    [_collectionLuaContext loadLuaModuleNamed:@"CheckerTableController" withCompletionBlock:^(Class viewControllerClass) {
         
-        if ([result isKindOfClass:[UIViewController class]])
+        if ([viewControllerClass isSubclassOfClass:[UIViewController class]] && 
+            (viewControllerClass != [self.navController.viewControllers.firstObject class]))
         {
-            [self.navController setViewControllers:@[result] animated:YES];
+            [self.navController setViewControllers:@[ [viewControllerClass new] ] animated:YES];
         }
         
     }];

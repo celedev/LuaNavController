@@ -28,9 +28,9 @@ DetailViewController subscribes to this message in its `viewDidAppear` method, s
  
 ## Configuration required
 
-A Mac with Celedev CodeFlow version 0.9.11 or later.
+A Mac with Celedev CodeFlow version 0.9.18 or later.
 
-Works on iPhone, running iOS 6 or later.
+Works on iPhone or iPad, running iOS 7.1 or later.
 
 ## How to use this code sample
 

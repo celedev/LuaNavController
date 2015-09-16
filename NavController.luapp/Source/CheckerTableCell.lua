@@ -19,7 +19,7 @@ function CheckerTableCell:initWithStyle_reuseIdentifier(style , reuseIdentifier)
     self = self[UITableViewCell]:initWithStyle_reuseIdentifier (style , reuseIdentifier)
     
     if self ~= nil then
-        self.accessoryType = UiTableViewCell.AccessoryType.DetailDisclosureButton
+        self.accessoryType = UiTableViewCell.Accessory.DetailDisclosureButton
         
         local contentView = self.contentView
         
@@ -43,7 +43,7 @@ function CheckerTableCell:initWithStyle_reuseIdentifier(style , reuseIdentifier)
         checkButton.backgroundColor = cellBackgroundColor
         checkButton.contentVerticalAlignment   = UiControl.ContentVerticalAlignment.Center;
         checkButton.contentHorizontalAlignment = UiControl.ContentHorizontalAlignment.Center;
-        checkButton:addTarget_action_forControlEvents (self, 'toggleCheck', UiControl.Events.TouchDown)
+        checkButton:addTarget_action_forControlEvents (self, 'toggleCheck', UiControl.Event.TouchDown)
         self.checkButton = checkButton
         
         contentView:addSubview(checkButton);

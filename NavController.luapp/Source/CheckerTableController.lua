@@ -5,6 +5,9 @@ local NSPropertyList = require "Foundation.NSPropertyList"
 local CheckerCell          = require "CheckerTableCell"
 local DetailViewController = require "DetailViewController"
 
+local UiDevice = require "UIKit.UIDevice"
+local isIpadDevice = objc.UIDevice.currentDevice.userInterfaceIdiom == UiDevice.UIUserInterfaceIdiom.Pad
+
 local UITableViewController = objc.UITableViewController
 
 local CheckerTableViewController = class.createClass ("CheckerTableViewController", UITableViewController)
@@ -39,7 +42,7 @@ function CheckerTableViewController:configure ()
 
     self.title = "Fruits"
     
-    self.tableView.rowHeight = 65
+    self.tableView.rowHeight = isIpadDevice and 80 or 60
     
     -- update the height in the tableViewCell
     CheckerCell:setCellHeight(self.tableView.rowHeight)
